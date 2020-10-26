@@ -1,12 +1,15 @@
 from random import randint
 import sys
 from time import sleep
-words = '\033[0;35mWelcom To Code Maker IQ Numbers The:Developer:Al_kabby.@Hack_Kabbay '
+'clear'
+words = '''\033[0;31mWelcom To The Hell
+This code make numbers 
+ '''
 for char in words:
     sleep(0.1)
     sys.stdout.write(char)
     sys.stdout.flush()
-keys = input('\033[0;32mENTER KEY 077,079,075: ')
+keys = input('\033[0;32mENTER KEY 077,079,075,848,252,513: ')
 R = int(input("\033[0;31mEnter range of numbers: "))
 if keys == '077':
      def numbs(H):
@@ -29,3 +32,31 @@ elif keys == '075':
 	 	  return randint(range_sta,range_end)
 	 for keyss in range(0,R):
 	 	print('0750',Numbs(7))
+elif keys == '848':
+	 def Numbs(i):
+	 	  range_sta = 10**(i-1)
+	 	  range_end = (10**i)-1
+	 	  return randint(range_sta,range_end)
+	 for keyss in range(0,R):
+	 	print('848',Numbs(8))
+elif keys == '724':
+	 def Numbs(i):
+	 	  range_sta = 10**(i-1)
+	 	  range_end = (10**i)-1
+	 	  return randint(range_sta,range_end)
+	 for keyss in range(0,R):
+	 	print('724',Numbs(8))
+elif keys == '252':
+	 def Numbs(i):
+	 	  range_sta = 10**(i-1)
+	 	  range_end = (10**i)-1
+	 	  return randint(range_sta,range_end)
+	 for keyss in range(0,R):
+	 	print('252',Numbs(8))
+elif keys == '513':
+	 def Numbs(i):
+	 	  range_sta = 10**(i-1)
+	 	  range_end = (10**i)-1
+	 	  return randint(range_sta,range_end)
+	 for keyss in range(0,R):
+	 	print('513',Numbs(8))
